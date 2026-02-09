@@ -13,9 +13,6 @@ This is the official repository for our paper PRIME: A Pretrained Representation
 - [Setup](#rocket-setup)
   - [Environment](#environment)
   - [Trained Weights](#trained-weights)
-- [Usage](#eyes-usage)
-  - [Demo](#demo)
-  - [Tutorials](#tutorials)
 - [Reproduction of Paper Experiments](#page_facing_up-reproduction-of-paper-experiments)
   - [Additional Dependencies](#additional-dependencies)
   - [Datasets](#datasets)
@@ -23,7 +20,7 @@ This is the official repository for our paper PRIME: A Pretrained Representation
   - [Inference & Configurations](#inference--configurations)
   - [Evaluation](#evaluation)
 - [Contact](#bulb-contact)
-- [Reference](#reference)
+- [Acknowledgements](#handshake-acknowledgements)
 
 ## :rocket: Setup
 
@@ -264,6 +261,6 @@ Thank you for your interest in our work!
 
 Please feel free to ask about any questions about the algorithms, codes, as well as problems encountered in running them so that we can make it clearer and better. You can either create an issue in the github repo or contact us at [here](mailto:zhihuatean@gmail.com).
 
-## Acknowledgments
+## :handshake: Acknowledgements
 
 Our repository is adopted from [UniMoMo](https://github.com/kxz18/UniMoMo). We thank the authors for their open-source contribution.
