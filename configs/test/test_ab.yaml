@@ -1,0 +1,26 @@
+dataset:
+  test:
+    class: AntibodyDataset
+    mmap_dir: ./datasets/antibody/SAbDab/processed
+    specify_index: ./datasets/antibody/SAbDab/processed/test_index.txt
+    test_mode: true
+    cdr_type:
+      - HCDR3
+
+dataloader:
+  num_workers: 4
+  batch_size: 8
+
+n_samples: 100
+n_cycles: 0
+
+sample_opt:
+  noise_beta: 1
+  use_graph_laplacian: true  # Graph Laplacian
+  use_mc_cads: true
+  mc_cads_tau_scaf: [0.3, 0.6]   # Scaffold (context): low thresholds -> easy to preserve
+  mc_cads_tau_back: [0.4, 0.7]   # Backbone (is_aa=True): medium thresholds
+  mc_cads_tau_sub: [0.6, 0.9]    # Substituent (is_aa=False): high thresholds -> more exploration
+  mc_cads_noise_scale: 0.1
+  mc_cads_rescale: true          # Rescale corrupted condition to original mean/std (formula 3)
+  mc_cads_mixing_factor: 0.5

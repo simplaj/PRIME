@@ -1,0 +1,10 @@
+DockQ==2.1.3
+rdkit-pypi==2022.3.5
+biotite==0.40.0
+tqdm
+easydict
+wandb
+sympy
+packaging # for torch.utils.tensorboard
+networkx
+ray
