@@ -41,7 +41,7 @@ trainer:
     warmup: 8000 # gradually increasing KL divergence for training stability (4 4090 GPUs)
     metric_min_better: true
     proj_name: PRIME-AB # for wandb
-    logger: tensorboard # if you want to use wandb, please comment this line 
+    # logger: tensorboard # if you want to use wandb, please comment this line 
 
     optimizer:
       class: AdamW

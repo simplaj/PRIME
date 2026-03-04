@@ -35,7 +35,7 @@ conda env create -f env_cuda117.yaml
 Remember to activate the environment before running the codes:
 
 ```bash
-conda activate UniMoMo
+conda activate PRIME
 ```
 
 ### Trained Weights
